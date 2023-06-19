@@ -21,6 +21,8 @@
             binary.Insert(67);
             binary.Display();
             binary.GetSize();
+            bool result = binary.IfExits(63, binary);
+            Console.WriteLine(result);
         }
     }
 }
